@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+body{
+background-color: #92C7CF;
+color: #164863;
+font-family: Signika Negative;
+}
+h1{
+color: #43766C;
+font-family: Exo 2;
+text-align: center;
+}
