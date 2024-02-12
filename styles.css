@@ -10,3 +10,22 @@ color: #43766C;
 font-family: Exo 2;
 text-align: center;
 }
+nav {
+    font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
+    background: #92C7CF;
+    font-size: 11px;
+    margin-left: 25px;
+  }
+  li {
+    display: inline-block;
+    padding: 16px; 
+    border-left: 1px solid white; 
+
+  }
+  a {
+    color: #164863;
+    text-decoration: none;
+     
+      border-bottom: 2px solid #164863;
+    
+  }
