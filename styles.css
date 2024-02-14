@@ -13,8 +13,8 @@ text-align: center;
 nav {
     font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
     background: #92C7CF;
-    font-size: 11px;
-    margin-left: 25px;
+    font-size: 20px;
+    margin: 0px 80px 0px 80px ;
   }
   li {
     display: inline-block;
