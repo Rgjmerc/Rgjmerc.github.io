@@ -10,7 +10,6 @@ color: #43766C;
 font-family: Exo 2;
 text-align: center;
 }
-
 nav {
     font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
     background: #92C7CF;
@@ -18,16 +17,27 @@ nav {
     margin: 0px 350px 0px 350px ;
     position:sticky;
     top: 0px;
-  }
+}
   li {
     display: inline-block;
-    padding: 16px; 
-     
+    padding: 16px;    
   }
-  a {
+a {
     color: #164863;
     text-decoration: none;    
       border-bottom: 2px solid #164863;  
+  }
+a:visited{
+    color: navy;
+    border-color: navy;
+  }
+a:hover{
+    color: cornflowerblue;
+    border-color:cornflowerblue;
+  }
+  a:active{
+color: palevioletred;
+border-color: palevioletred;
   }
 .underline{
     text-decoration: underline;
