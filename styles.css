@@ -14,7 +14,7 @@ nav {
     font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
     background: #92C7CF;
     font-size: 20px;
-    margin: 0px 350px 0px 350px ;
+    margin: 0px 250px 0px 250px ;
     position:sticky;
     top: 0px;
 }
@@ -39,9 +39,19 @@ a:hover{
 color: palevioletred;
 border-color: palevioletred;
   }
+  body{
+    text-align: center;
+  }
 .underline{
     text-decoration: underline;
 }
 #heading{
     color: #43766C;
 }
+#center{
+  text-align: center;
+}
+#fname{}
+#lname{}
+#email{}
+#phone{}
