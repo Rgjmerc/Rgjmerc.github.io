@@ -4,13 +4,14 @@ body{
 background-color: #92C7CF;
 color: #164863;
 font-family: Signika Negative;
+text-align: center;
 }
-h1{
+h1,{
 color: #43766C;
 font-family: Exo 2;
 text-align: center;
 }
-nav {
+nav{
     font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
     background: #92C7CF;
     font-size: 20px;
@@ -39,8 +40,11 @@ a:hover{
 color: palevioletred;
 border-color: palevioletred;
   }
-  body{
-    text-align: center;
+  i{
+    margin-right: 20px;
+  }
+  i:hover{
+    background-color: paleturquoise;
   }
 .underline{
     text-decoration: underline;
