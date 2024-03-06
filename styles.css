@@ -59,16 +59,36 @@ border-color: palevioletred;
 #lname{}
 #email{}
 #phone{}
-@media (max-width:460px) {
+@media screen and (max-width:460px) {
   nav{
   margin: 0;
 }
   li{
   padding: 8px;
+  font-size: larger;
   }
-  input{
+  input,select{
     width: 230px;
-    padding: 10px;
+    padding: 8px;
     height: 30px;
+  }
+  body{
+    font-size: x-large;
+  }
+}
+@media screen and (min-width:461px) and (max-width:1030px) {
+  body{
+    font-size: xx-large;
+  }
+  input,select{
+    width: 230px;
+    padding: 5px;
+    height: 30px;
+  }
+  nav{
+    margin: 0;
+  }
+  li{
+    font-size: xx-large;
   }
 }
