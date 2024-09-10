@@ -49,11 +49,32 @@ border-color: palevioletred;
 .underline{
     text-decoration: underline;
 }
-#heading{
+.heading{
     color: #43766C;
 }
-#center{
+.center{
   text-align: center;
+}
+.spacing{
+  line-height: 50px;
+}
+.marginshrink{
+margin: 5px;
+}
+.allignend{
+  text-align: end;
+}
+#myname{
+ color: #073954;
+ text-align: start;
+ margin: 0px;
+ margin-top: 30px;
+}
+#myname2{
+  color: #073954;
+ text-align: start;
+ margin-left: 150px;
+ margin-top: 0px;
 }
 #fname{}
 #lname{}
@@ -76,7 +97,7 @@ border-color: palevioletred;
     font-size: x-large;
   }
 }
-@media screen and (min-width:461px) and (max-width:1030px) {
+@media screen and (min-width:461px) and (max-width:2030px) {
   body{
     font-size: xx-large;
   }
