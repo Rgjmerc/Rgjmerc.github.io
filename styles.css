@@ -64,6 +64,10 @@ margin: 5px;
 .allignend{
   text-align: end;
 }
+.imgend{
+  /* Just temp delete immediately */
+  color: #073954;
+}
 #myname{
  color: #073954;
  text-align: start;
